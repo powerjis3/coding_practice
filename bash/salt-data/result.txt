@@ -1,0 +1,1719 @@
+SGH417FHKL	db40.wmp.wemakeprice.org	64385
+
+
+
+
+
+
+
+
+SGH527XLDK	db-m01.tmp.common.wemakeprice.org	128936
+SGH34998J3	db35.wmp.wemakeprice.org	64386
+
+
+SGH320VPSV	db10.wmp.wemakeprice.org	129022
+SGH312PK7A	db08.wmp.wemakeprice.org	64386
+
+
+
+
+
+
+
+
+
+
+
+SGH312PK7C	db02.wmp.wemakeprice.org	64386
+
+
+
+
+
+06FBNAC	db13.wmp.wemakeprice.org	64401
+
+
+
+
+
+
+SGH522VRP5	balance-s01.dep.wmp.wemakeprice.org	129022
+SGH522VRP7	balance-s02.dep.wmp.wemakeprice.org	129022
+
+
+
+
+
+
+
+99B3337	slave01.redis.storage.wemakeprice.org	64386
+
+
+
+
+
+
+SGH316SVEA	jenkins01.sys.common.wemakeprice.org	32132
+
+SGH316SVE6	db01.ems.common.wemakeprice.org	64386
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+06GEWY7	master01.jenkins.deploy.wemakeprice.org	64405
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SGH420HFSL	cephnode01.cloud.common.wemakeprice.org	64388
+SGH420HFST	cephnode14.cloud.common.wemakeprice.org	64388
+SGH420HFSN	cephnode03.cloud.common.wemakeprice.org	64388
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+06NX017	slave02.redis.storage.wemakeprice.org	64418
+
+
+
+
+
+
+
+
+
+
+
+06VN924	master02.redis.storage.wemakeprice.org	64386
+
+
+06VN929	master01.redis.storage.wemakeprice.org	64386
+
+06VN934	slave03.redis.storage.wemakeprice.org	64386
+
+
+
+
+SGH3499913	api01.pre-prod.order.wmp.wemakeprice.org	64386
+
+
+
+
+
+
+
+
+
+
+
+
+
+SGH349991R	web01.pre-prod.order.wmp.wemakeprice.org	64388
+SGH349990N	web366.front.wmp.wemakeprice.org	64388
+06FEZ49	master03.redis.storage.wemakeprice.org	64386
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9136XBX	monitoring01.sys.common.wemakeprice.org	15933
+
+
+
+SGH316T252	mail01.wems.common.wemakeprice.org	15910
+SGH312PK9H	db-s01.wems.common.wemakeprice.org	64386
+
+
+
+
+
+SGH312PK9J	m02.asch.wmp.wemakeprice.org	15909
+6CU4151R3L	m01.osch.wmp.wemakeprice.org	64386
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SGH507X5JK	member-api01.promotion.wmp.wemakeprice.org	32133
+SGH507X5JA	member-api02.promotion.wmp.wemakeprice.org	32132
+
+
+SGH507X5JN	sitemanage-api01.promotion.wmp.wemakeprice.org	32132
+
+
+
+
+
+
+
+
+
+
+
+
+SGH529V10S	cephnode05.cloud.common.wemakeprice.org	64302
+
+SGH529V10M	elk02.logrecord.nd.wemakeprice.org	64302
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SGH536XM2W	db18.wmp.wemakeprice.org	128936
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SGH541WTX1	api02.pay.wmp.wemakeprice.org	31982
+SGH541WTWW	mq01.order.wmp.wemakeprice.org	31982
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SGH628YV3Y	dbmonitoring02.wmp.wemakeprice.org	128812
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+87P0MD2	web02.static.wmp.wemakeprice.org	32057
+SGH635WCKT	api01.order.wmp.wemakeprice.org	64297
+SGH635WCKR	api02.order.wmp.wemakeprice.org	64297
+SGH635WCKF	api03.order.wmp.wemakeprice.org	64297
+SGH635WCKL	composite-api02.promotion.wmp.wemakeprice.org	64300
+
+
+
+
+8B2HKF2	engine01.dealsearch.nd.wemakeprice.org	64312
+8BK8KF2	db02.datasync.nd	64313
+8BVJKF2	engine02.dealsearch.nd.wemakeprice.org	64312
+8BKJKF2	engine03.dealsearch.nd.wemakeprice.org	64312
+8BTHKF2	nms03.net.common.wemakeprice.org	32057
+8BLBKF2	db01.datasync.nd.wemakeprice.org	64313
+8BTBKF2	nms02.net.common.wemakeprice.org	64327
+8BVFKF2	test03.sysadmin.wemakeprice.org	64312
+8BKDKF2	coordinator01.esautocomplete.nd.wemakeprice.org	32057
+8BLDKF2	gw-api01.promotion.wmp.wemakeprice.org	32057
+8BL8KF2	gw-api02.promotion.wmp.wemakeprice.org	32057
+8BT9KF2	kibana01.log.wemakeprice.org	64313
+8BK9KF2	esautocomplete.nd.wemakeprice.org	32057
+8C1DKF2	master01.esautocomplete.nd.wemakeprice.org	32057
+
+
+8B0HKF2	rss02.stat.wmp.wemakeprice.org	64312
+8B0JKF2	master02.esautocomplete.nd.wemakeprice.org	32057
+8BVGKF2	master03.esautocomplete.nd.wemakeprice.org	32057
+8C1CKF2	cache-api05.front.wmp.wemakeprice.org	32056
+8BVDKF2	cache-api06.front.wmp.wemakeprice.org	32056
+
+
+8BTFKF2	web01.campaign.wmp.wemakeprice.org	64312
+8B8JKF2	api01.point.wmp.wemakeprice.org	32056
+8BBGKF2	api02.point.wmp.wemakeprice.org	32056
+8BT8KF2	api03.point.wmp.wemakeprice.org	32056
+
+8B3FKF2	control01.cloud.common.wemakeprice.org	32056
+8B2DKF2	cephmon01.cloud.common.wemakeprice.org	32057
+8BLFKF2	cephmon02.cloud.common.wemakeprice.org	32057
+
+
+SGH635WCKN	job01.batch.nd.wemakeprice.org	64299
+SGH635WCL1	idx02.asch.wmp.wemakeprice.org	64299
+SGH635WCKJ	job02.batch.nd.wemakeprice.org	64299
+SGH635WCKB	job03.batch.nd.wemakeprice.org	64299
+SGH635WCDW	db-m01.contents.wmp.wemakeprice.org	128932
+SGH635WCE1	db-s01.contents.wmp.wemakeprice.org	128932
+
+SGH635WCDT	db-master.wmp.wemakeprice.org	258203
+SGH635WCKY	db-m01.ad.wmp.wemakeprice.org	64297
+SGH635WCK9	db-s01.ad.wmp.wemakeprice.org	64297
+SGH635WCKW	api01.perf.fdealsearch.nd.wemakeprice.org	64299
+SGH635WCKD	job04.batch.nd.wemakeprice.org	64299
+8B9JKF2	db-bk01.point.wmp.wemakeprice.org	31995
+
+
+
+
+SGH703WBBB	api01.outsettle.wmp.wemakeprice.org	64300
+SGH703WBBD	mail05.wems.common.wemakeprice.org	32044
+SGH703WBB9	elk05.logrecord.nd.wemakeprice.org	64300
+SGH703WBBL	composite-api01.promotion.wmp.wemakeprice.org	128812
+
+
+
+
+
+5B4ZXJ2	web101.front.wmp.wemakeprice.org	128824
+5694YJ2	web102.front.wmp.wemakeprice.org	128824
+59V3YJ2	web103.front.wmp.wemakeprice.org	128824
+57V2YJ2	web104.front.wmp.wemakeprice.org	128824
+567YXJ2	web105.front.wmp.wemakeprice.org	128824
+57W3YJ2	web106.front.wmp.wemakeprice.org	128824
+568ZXJ2	web107.front.wmp.wemakeprice.org	128824
+568YXJ2	web108.front.wmp.wemakeprice.org	128824
+565XXJ2	web109.front.wmp.wemakeprice.org	128824
+5691YJ2	web110.front.wmp.wemakeprice.org	128824
+5B32YJ2	web111.front.wmp.wemakeprice.org	128824
+566XXJ2	web112.front.wmp.wemakeprice.org	128824
+5684YJ2	web113.front.wmp.wemakeprice.org	128824
+5B4XXJ2	web114.front.wmp.wemakeprice.org	128824
+566ZXJ2	web115.front.wmp.wemakeprice.org	128824
+57C0YJ2	web116.front.wmp.wemakeprice.org	128824
+59V1YJ2	web117.front.wmp.wemakeprice.org	128824
+59V0YJ2	web118.front.wmp.wemakeprice.org	128824
+5685YJ2	web119.front.wmp.wemakeprice.org	128824
+57TWXJ2	web120.front.wmp.wemakeprice.org	128824
+59V2YJ2	web121.front.wmp.wemakeprice.org	128824
+567ZXJ2	web122.front.wmp.wemakeprice.org	128824
+5663YJ2	web123.front.wmp.wemakeprice.org	128824
+57SXXJ2	web124.front.wmp.wemakeprice.org	128824
+5B41YJ2	web125.front.wmp.wemakeprice.org	128824
+5670YJ2	web126.front.wmp.wemakeprice.org	128824
+57D2YJ2	web127.front.wmp.wemakeprice.org	128824
+5B3YXJ2	web128.front.wmp.wemakeprice.org	128823
+59T4YJ2	web129.front.wmp.wemakeprice.org	128824
+5672YJ2	web130.front.wmp.wemakeprice.org	128824
+5TSWXJ2	web131.front.wmp.wemakeprice.org	128824
+57H4YJ2	web132.front.wmp.wemakeprice.org	128823
+57VYXJ2	web133.front.wmp.wemakeprice.org	128824
+5682YJ2	web134.front.wmp.wemakeprice.org	128824
+57CXXJ2	web135.front.wmp.wemakeprice.org	128824
+5G52YJ2	web136.front.wmp.wemakeprice.org	128824
+5G5XXJ2	web137.front.wmp.wemakeprice.org	128824
+5G34YJ2	api02.join.wmp.wemakeprice.org	128824
+
+
+5G20YJ2	api01.deal-coupon.wmp.wemakeprice.org	128825
+5G2ZXJ2	api02.deal-coupon.wmp.wemakeprice.org	128825
+5G42YJ2	svr17.osch.wmp.wemakeprice.org	64313
+5G50YJ2	svr18.osch.wmp.wemakeprice.org	64313
+5G40YJ2	idx02.sch.wmp.wemakeprice.org	128823
+56D3YJ2	deallist04.batch.wmp.wemakeprice.org	128825
+
+56C1YJ2	gateway01.common.wemakeprice.org	128825
+
+56B1YJ2	cache32.front.nd.wemakeprice.org	644920
+
+
+
+
+58DMMK2	etl01.stat.wmp	128948
+
+
+
+
+
+
+6P7NMK2	server01.itam.wmp.wemakeprice.org	64312
+6NNTMK2	idxapi03.asch.wmp.wemakeprice.org	64311
+6NCMMK2	delivery-api01.nd.wmp.wemakeprice.org	64313
+6NCSMK2	delivery-api02.nd.wmp.wemakeprice.org	64313
+6NPPMK2	db-m01.shipping.nd.wmp	64311
+6NDSMK2	db-s01.shipping.nd.wmp	64311
+6NPSMK2	db-bk01.shipping.nd.wmp	64311
+6NDMMK2	deal-except-api01.promotion.wmp.wemakeprice.org	64312
+6NQMMK2	deal-except-api02.promotion.wmp.wemakeprice.org	64313
+6NBTMK2	web02.campaign.wmp.wemakeprice.org	64313
+6Q5VMK2	app13.elk.nd.wemakeprice.org	64313
+6Q6RMK2	app14.elk.nd.wemakeprice.org	64313
+6Q6MMK2	app08.elk.nd.wemakeprice.org	64313
+6P1NMK2	app09.elk.nd.wemakeprice.org	64313
+6QHMMK2	app10.elk.nd.wemakeprice.org	64313
+6QGQMK2	app11.elk.nd.wemakeprice.org	64313
+6QGSMK2	app12.elk.nd.wemakeprice.org	64313
+6QHPMK2	scribe03.log.wmp.wemakeprice.org	64311
+6QFRMK2	cache-api03.front.wmp.wemakeprice.org	64313
+
+
+6P2PMK2	data01.eslog.nd.wemakeprice.org	257848
+6PXTMK2	web03.campaign.wmp.wemakeprice.org	257847
+
+
+6NHSMK2	web04.sales-event.wmp.wemakeprice.org	257848
+6NJPMK2	web05.sales-event.wmp.wemakeprice.org	257848
+6NJVMK2	ext-api01.member.wmp.wemakeprice.org	64313
+6PYTMK2	ext-api02.member.wmp.wemakeprice.org	64312
+
+
+
+
+
+
+
+
+
+4WZ21L2	db32.wmp.wemakeprice.org	258218
+
+
+HYKW0L2	batch02.esautocomplete.nd.wemakeprice.org	257848
+HYQY0L2	data01.perf.categorysearch.nd.wemakeprice.org	128824
+HYLW0L2	data02.perf.categorysearch.nd.wemakeprice.org	128824
+HYR11L2	data03.perf.categorysearch.nd.wemakeprice.org	128824
+HYGW0L2	data04.perf.categorysearch.nd.wemakeprice.org	128824
+HYN01L2	data05.perf.categorysearch.nd.wemakeprice.org	128824
+HYPW0L2	data06.perf.categorysearch.nd.wemakeprice.org	128824
+HYQZ0L2	data07.perf.categorysearch.nd.wemakeprice.org	128824
+HYM31L2	data08.perf.categorysearch.nd.wemakeprice.org	128824
+HYT21L2	data09.perf.categorysearch.nd.wemakeprice.org	128824
+HYLY0L2	data10.perf.categorysearch.nd.wemakeprice.org	128824
+HYL21L2	data11.perf.categorysearch.nd.wemakeprice.org	128824
+HYN11L2	data12.perf.categorysearch.nd.wemakeprice.org	128824
+HYJZ0L2	data13.perf.categorysearch.nd.wemakeprice.org	128824
+HYSV0L2	data14.perf.categorysearch.nd.wemakeprice.org	128824
+HYJ31L2	data15.perf.categorysearch.nd.wemakeprice.org	128824
+HYRV0L2	data16.perf.categorysearch.nd.wemakeprice.org	128824
+HYPZ0L2	data17.perf.categorysearch.nd.wemakeprice.org	128824
+HYNW0L2	data18.perf.categorysearch.nd.wemakeprice.org	128824
+HYK31L2	data19.perf.categorysearch.nd.wemakeprice.org	128824
+HYJX0L2	kafka01.log.wemakeprice.org	64313
+HYK11L2	elk01.logrecord.nd.wemakeprice.org	128825
+HYLZ0L2	kafka04.log.wemakeprice.org	64313
+HYMW0L2	kafka01.review.nd.wemakeprice.org	128825
+HYJY0L2	kafka02.review.nd.wemakeprice.org	128825
+HYL11L2	kafka03.review.nd.wemakeprice.org	128825
+HYL01L2	cobbler01.test.wemakeprice.org	128675
+HYN21L2	kafka03.log.wemakeprice.org	64313
+
+
+
+
+
+HYQ11L2	couch-data01.deal.nd.wemakeprice.org	644920
+HYM11L2	couch-data02.deal.nd.wemakeprice.org	644920
+HYF01L2	couch-data03.deal.nd.wemakeprice.org	644920
+HYK21L2	couch-data04.deal.nd.wemakeprice.org	644920
+
+
+
+
+
+HYQ01L2	svr19.osch.wmp.wemakeprice.org	64313
+HYN31L2	svr12.osch.wmp.wemakeprice.org	64311
+HYG21L2	api01.liveinfo.wmp.wemakeprice.org	128825
+HYFY0L2	api02.liveinfo.wmp.wemakeprice.org	128825
+HYRX0L2	memcache01.front.wmp.wemakeprice.org	128823
+
+
+
+
+HYKX0L2	control02.cloud.dev.wemakeprice.org	64312
+
+
+
+
+HYDW0L2	job05.batch.nd.wemakeprice.org	64313
+HYC31L2	cache-couch04.front.wmp.wemakeprice.org	128825
+HYD01L2	cache-couch05.front.wmp.wemakeprice.org	128823
+HYBY0L2	cache-couch06.front.wmp.wemakeprice.org	128825
+DLP4WL2	db-m01.deal.nd.wemakeprice.org	258218
+DLX5WL2	db-s01.deal.nd.wemakeprice.org	258218
+
+
+DLW4WL2	db-m01.escrow.nd.wemakeprice.org	258218
+DLPDWL2	db-s03.sms.common.wemakeprice.org	258218
+
+DLY4WL2	db-s02.benefit.nd	258218
+DLQ5WL2	db-m01.benefit.nd.wemakeprice.org	258219
+DLPCWL2	engine09.dealsearch.nd.wemakeprice.org	257848
+
+
+
+
+
+
+
+40MDCM2	web01.front.telemart.wemakeprice.org	64312
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4K4HCM2	web10.order.wmp.wemakeprice.org	128824
+4K0CCM2	web11.order.wmp.wemakeprice.org	128824
+4K5HCM2	web12.order.wmp.wemakeprice.org	128824
+4JSHCM2	web04.img.common.wemakeprice.org	128823
+4JSCCM2	web05.img.common.wemakeprice.org	128823
+
+
+
+
+
+
+
+
+
+
+
+
+4JZJCM2	web06.order.wmp.wemakeprice.org	64312
+40JHCM2	web07.order.wmp.wemakeprice.org	64312
+40GHCM2	web08.order.wmp.wemakeprice.org	64312
+40HJCM2	web09.order.wmp.wemakeprice.org	64312
+4K5CCM2	api01.paycenter-gw.wmp.wemakeprice.org	64312
+4K2GCM2	api02.paycenter-gw.wmp.wemakeprice.org	64312
+40KHCM2	svr13.osch.wmp.wemakeprice.org	64313
+40LHCM2	svr14.osch.wmp.wemakeprice.org	64312
+40LGCM2	svr15.osch.wmp.wemakeprice.org	64313
+40HCCM2	svr16.osch.wmp.wemakeprice.org	64311
+40FCCM2	svr20.osch.wmp.wemakeprice.org	64313
+40DLCM2	svr21.osch.wmp.wemakeprice.org	64313
+4K3LCM2	cache01.deal.nd.wemakeprice.org	64313
+40KJCM2	cache02.deal.nd.wemakeprice.org	64313
+40LLCM2	cache03.deal.nd.wemakeprice.org	64313
+40DHCM2	cache01.contents.nd.wemakeprice.org	64313
+40JGCM2	cache02.contents.nd.wemakeprice.org	64313
+40MLCM2	cache03.contents.nd.wemakeprice.org	64313
+4KKFCM2	strategy.stg.wmp.wemakeprice.org	64312
+4KLJCM2	mail03.wems.common.wemakeprice.org	32056
+4KMFCM2	mail04.wems.common.wemakeprice.org	32056
+409KCM2	db-bk01.benefit.nd	258218
+40GKCM2	db01.productioncdc.nd.wemakeprice.org	258218
+40JJCM2	db-m01.public.nd.wemakeprice.org	258219
+40KGCM2	db-s01.public.nd.wemakeprice.org	258219
+40LFCM2	db-s02.public.nd.wemakeprice.org	258218
+40HKCM2	db01.search.nd.wemakeprice.org	258219
+2JGF8N2	mq01.kafka.nd.wemakeprice.org	64312
+2JFK8N2	mq02.kafka.nd.wemakeprice.org	64312
+2JFN8N2	mq03.kafka.nd.wemakeprice.org	64312
+2JFF8N2	app05.elk.nd.wemakeprice.org	64312
+2JDN8N2	data-store01.sysadmin.wemakeprice.org	64312
+2JCM8N2	cache03a.deal.nd.wemakeprice.org	64312
+2JDG8N2	app01.elk.nd.wemakeprice.org	64312
+2JCH8N2	app02.elk.nd.wemakeprice.org	64312
+2JDD8N2	app03.elk.nd.wemakeprice.org	64312
+2JCK8N2	app04.elk.nd.wemakeprice.org	64312
+2VHJ8N2	db01.history.nd.wemakeprice.org	257848
+2VJJ8N2	db02.history.nd.wemakeprice.org	257848
+2VJD8N2	db03.history.nd.wemakeprice.org	257848
+2VGL8N2	db04.history.nd.wemakeprice.org	257848
+2HXJ8N2	db-s02.deal.nd	258218
+2HXN8N2	engine08.dealsearch.nd.wemakeprice.org	257848
+2HXG8N2	db-s02.escrow.nd.wemakeprice.org	258218
+2HXL8N2	db-bk01.escrow.nd.wemakeprice.org	258218
+
+
+
+
+
+
+
+
+
+
+
+SGH805S6M2	vertica15.stat.wmp.wemakeprice.org	258207
+SGH805S6M0	vertica16.stat.wmp.wemakeprice.org	258207
+SGH805S6LX	vertica17.stat.wmp.wemakeprice.org	258207
+SGH805S6LV	vertica18.stat.wmp.wemakeprice.org	258207
+SGH805S6LM	vertica19.stat.wmp.wemakeprice.org	258207
+SGH805S6M6	vertica20.stat.wmp.wemakeprice.org	258207
+SGH805S6LS	vertica21.stat.wmp.wemakeprice.org	258207
+SGH805S6M4	vertica22.stat.wmp.wemakeprice.org	258207
+SGH805S6LP	vertica23.stat.wmp.wemakeprice.org	258207
+DZYM8N2	engine01.search.nd.wemakeprice.org	64312
+F01H8N2	engine02.search.nd.wemakeprice.org	64312
+DZZH8N2	engine03.search.nd.wemakeprice.org	64312
+DZYM8N2	engine01.search.nd.wemakeprice.org	64312
+
+F00L8N2	data-store02.sysadmin.wemakeprice.org	64311
+DZYD8N2	cache31.front.nd.wemakeprice.org	644920
+F0QK8N2	db02.serch.nd.wemakeprice.org	258218
+7Y9W6P2	db-s03.deal.nd.wemakeprice.org	258218
+7Y9Y6P2	db-s03.escrow.nd.wemakeprice.org	258220
+7YB07P2	db-s03.benefit.nd.wemakeprice.org	258220
+7Y9Z6P2	db-s03.public.nd.wemakeprice.org	258220
+7YB27P2	db-s04.public.nd.wemakeprice.org	258218
+DS117P2	db57.wmp.wemakeprice.org	258218
+DS0W6P2	mon02.db.nd.wemakeprice.org	258218
+DS1V6P2	db60.wmp.wemakeprice.org	258218
+DS0Y6P2	batchdb01.wmp.wemakeprice.org	258218
+DS137P2	db41.wmp.wemakeprice.org	258218
+DS0Z6P2	db42.wmp.wemakeprice.org	258218
+DS0X6P2	db43.wmp.wemakeprice.org	258218
+69F7KP2	db44.wmp.wemakeprice.org	258363
+69G9KP2	db45.wmp.wemakeprice.org	258218
+69BBKP2	db46.wmp.wemakeprice.org	258218
+69DBKP2	db47.wmp.wemakeprice.org	258218
+69CBKP2	db48.wmp.wemakeprice.org	258218
+
+69GBKP2	db50.wmp.wemakeprice.org	258218
+69G4KP2	db51.wmp.wemakeprice.org	258218
+6916KP2	db52.wmp.wemakeprice.org	258218
+68YBKP2	db53.wmp.wemakeprice.org	258218
+6929KP2	db54.wmp.wemakeprice.org	258218
+68Y6KP2	db55.wmp.wemakeprice.org	258218
+6906KP2	db56.wmp.wemakeprice.org	258218
+68S6KP2	cache11.front.nd.wemakeprice.org	128824
+68R9KP2	cache12.front.nd.wemakeprice.org	128824
+68R4KP2	cache13.front.nd.wemakeprice.org	128823
+68RDKP2	cache14.front.nd.wemakeprice.org	128823
+68X6KP2	cache15.front.nd.wemakeprice.org	644919
+68VDKP2	cache16.front.nd.wemakeprice.org	644919
+68V5KP2	cache17.front.nd.wemakeprice.org	128824
+68XDKP2	cache18.front.nd.wemakeprice.org	128824
+68WBKP2	cache19.front.nd.wemakeprice.org	644919
+69K6KP2	cache20.front.nd.wemakeprice.org	644919
+69KCKP2	cache21.front.nd.wemakeprice.org	644919
+69K9KP2	cache22.front.nd.wemakeprice.org	644919
+69L5KP2	cephnode08.cloud.common.wemakeprice.org	64313
+
+69J7KP2	cephnode10.cloud.common.wemakeprice.org	64313
+D9P5KP2	db01.personal.wmp.wemakeprice.org	258218
+20Q9BQ2	db63.wmp.wemakeprice.org	516761
+20S3BQ2	db64.wmp.wemakeprice.org	516761
+20M3BQ2	db65.wmp.wemakeprice.org	516761
+20X1BQ2	db66.wmp.wemakeprice.org	516761
+20V3BQ2	db62.wmp.wemakeprice.org	516761
+20K8BQ2	itam02.sys.common.wemakeprice.org	257848
+
+
+
+
+C7C2BQ2	db-m01.sms.common.wemakeprice.org	64310
+C7F2BQ2	db-s01.sms.common.wemakeprice.org	64310
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+C7F1BQ2	web01.ids.wmp.wemakeprice.org	257848
+C7F8BQ2	web05.campaign.wmp.wemakeprice.org	257848
+95S6BQ2	couchbase01.contents.nd.wemakeprice.org	128825
+95T6BQ2	couchbase02.contents.nd.wemakeprice.org	128825
+95T9BQ2	couchbase03.contents.nd.wemakeprice.org	128825
+95V2BQ2	web06.img.common.wemakeprice.org	128825
+95S9BQ2	web07.img.common.wemakeprice.org	128825
+G1M4BQ2	es01.wmars.wmp.wemakeprice.org	257720
+G1M1BQ2	es02.wmars.wmp.wemakeprice.org	257720
+G1M2BQ2	es03.wmars.wmp.wemakeprice.org	257720
+G1M3BQ2	es04.wmars.wmp.wemakeprice.org	257720
+DF4F0R2	secu-stat.wemakeprice.org	128823
+DF5F0R2	dw-stat.wemakeprice.org	128825
+1FTZNR2	storage01.sys.common.wemakeprice.org	64312
+1FS1PR2	storage02.sys.common.wemakeprice.org	64312
+1FP2PR2	storage03.sys.common.wemakeprice.org	64312
+1FT3PR2	storage04.sys.common.wemakeprice.org	64312
+1FS4PR2	storage05.sys.common.wemakeprice.org	64312
+1FR4PR2	storage06.sys.common.wemakeprice.org	64312
+1FR0PR2	storage07.sys.common.wemakeprice.org	64312
+1FP4PR2	storage08.sys.common.wemakeprice.org	64312
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2GV1BQ2	dbmaster01.wmp.wemakeprice.org	258220
+
+
+
+
+
+
+BS14PR2	db-m01.mart.wmp.wemakeprice.org	258218
+BS15PR2	db-s01.mart.wmp.wemakeprice.org	258218
+BS25PR2	db-s02.mart.wmp.wemakeprice.org	258218
+BS24PR2	db-bk01.mart.wmp.wemakeprice.org	258218
+BRX5PR2	db36.wmp.wemakeprice.org	516761
+BS1ZNR2	batch01.esautocomplete.nd.wemakeprice.org	257848
+BS2ZNR2	region01.hbase.apm.wemakeprice.org	128825
+BS23PR2	region02.hbase.apm.wemakeprice.org	128825
+BS10PR2	region03.hbase.apm.wemakeprice.org	128825
+BRZ2PR2	collector01.apm.wemakeprice.org	128825
+BRZ0PR2	collector02.apm.wemakeprice.org	128825
+BS20PR2	couch-data05.deal.nd.wemakeprice.org	644920
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+BRVZNR2	web03.sales-event.wmp.wemakeprice.org	257848
+BS12PR2	web06.campaign.wmp.wemakeprice.org	257848
+CQDXNR2	web07.campaign.wmp.wemakeprice.org	257848
+CQD3PR2	web02.ids.wmp.wemakeprice.org	257848
+CX5ZNR2	web08.sales-event.wmp.wemakeprice.org	257848
+CX5YNR2	web10.campaign.wmp.wemakeprice.org	257848
+CX55PR2	rss08.stat.wmp.wemakeprice.org	257847
+BS2YNR2	engine07.dealsearch.nd.wemakeprice.org	257848
+HYQZNR2	engine01.specialsearch.nd.wemakeprice.org	257848
+HYS4PR2	engine02.specialsearch.nd.wemakeprice.org	257848
+HYW3PR2	engine03.specialsearch.nd.wemakeprice.org	257848
+HYV2PR2	api01.ad.wmp.wemakeprice.org	32056
+HYV5PR2	api02.ad.wmp.wemakeprice.org	32056
+HYTYNR2	api03.ad.wmp.wemakeprice.org	32056
+HYQXNR2	rss04.stat.wmp.wemakeprice.org	225591
+HYSZNR2	rss05.stat.wmp.wemakeprice.org	257847
+HYSYNR2	rss06.stat.wmp.wemakeprice.org	257847
+HYS1PR2	rss07.stat.wmp.wemakeprice.org	257847
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HYT3PR2	batch01.cataloglisting.nd.wemakeprice.org	257847
+HYQYNR2	kafka05.log.wemakeprice.org	64313
+HYW5PR2	cephnode01.sys.common.wemakeprice.org	257859
+HYV3PR2	cephnode02.sys.common.wemakeprice.org	257859
+
+
+HYV4PR2	ntp02.sys.common.wemakeprice.org	257847
+
+
+
+
+
+
+HYWZNR2	idxapi04.asch.wmp.wemakeprice.org	64313
+
+HYT2PR2	idxapi06.asch.wmp.wemakeprice.org	64313
+HYXYNR2	idxapi07.asch.wmp.wemakeprice.org	64313
+HYX4PR2	idxapi08.asch.wmp.wemakeprice.org	64313
+HYRYNR2	db-s01.pcs.wmp.wemakeprice.org	258218
+
+
+
+HYYYNR2	db-m01.member.nd.wemakeprice.org	258218
+HYX2PR2	db-s01.member.nd.wemakeprice.org	258218
+HYR3PR2	db-s02.member.nd.wemakeprice.org	258218
+HYY4PR2	db-bk01.member.nd.wemakeprice.org	258218
+HYS3PR2	db72.wmp.wemakeprice.org	258218
+HYX5PR2	db04.qa.wmp.wemakeprice.org	258218
+HYY1PR2	mon03.db.nd.wemakeprice.org	258218
+HYT1PR2	db70.wmp.wemakeprice.org	258218
+HYR5PR2	engine10.dealsearch.nd.wemakeprice.org	257848
+HYR1PR2	db71.wmp.wemakeprice.org	64310
+HYXZNR2	db-s11.escrow.nd.wemakeprice.org	258218
+HYY3PR2	db-s11.benefit.nd.wemakeprice.org	258218
+C6RG2S2	web06.sales-event.wmp.wemakeprice.org	257848
+C6RD2S2	web07.sales-event.wmp.wemakeprice.org	257848
+C6RB2S2	web01.sales-event.wmp.wemakeprice.org	257848
+C6QK2S2	web02.sales-event.wmp.wemakeprice.org	257848
+C6QH2S2	rss01.stat.wmp.wemakeprice.org	257848
+C6SF2S2	db68.wmp.wemakeprice.org	258218
+C6SB2S2	db69.wmp.wemakeprice.org	258218
+CG6J2S2	db-m02.ad.wmp.wemakeprice.org	128825
+
+
+
+
+
+
+
+
+
+
+
+67WQFS2	ntp01.sys.common.wemakeprice.org	257847
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+67WSFS2	db-m01.epes.wmp.wemakeprice.org	258218
+67LWFS2	db-s01.epes.wmp.wemakeprice.org	258218
+67QWFS2	db-s02.epes.wmp.wemakeprice.org	258218
+67YTFS2	db-s03.epes.wmp.wemakeprice.org	258218
+67HWFS2	db-s04.epes.wmp.wemakeprice.org	258218
+67MTFS2	db-s05.epes.wmp.wemakeprice.org	258218
+67HVFS2	app19.elk.nd.wemakeprice.org	257848
+67LQFS2	app20.elk.nd.wemakeprice.org	257848
+67SPFS2	app18.elk.nd.wemakeprice.org	257848
+
+
+67XQFS2	batch01.listingsearch.nd.wemakeprice.org	515896
+67TNFS2	kafka02.log.wemakeprice.org	64313
+67ZQFS2	app15.elk.nd.wemakeprice.org	257848
+67SSFS2	app16.elk.nd.wemakeprice.org	257848
+67WNFS2	engine31.listingsearch.nd.wemakeprice.org	257848
+67WWFS2	engine32.listingsearch.nd.wemakeprice.org	257848
+67GRFS2	engine33.listingsearch.nd.wemakeprice.org	257848
+67XPFS2	engine34.listingsearch.nd.wemakeprice.org	257848
+67MPFS2	engine35.listingsearch.nd.wemakeprice.org	257848
+680PFS2	engine36.listingsearch.nd.wemakeprice.org	257848
+680XFS2	engine37.listingsearch.nd.wemakeprice.org	257848
+67WTFS2	engine38.listingsearch.nd.wemakeprice.org	257848
+67ZSFS2	engine39.listingsearch.nd.wemakeprice.org	257848
+67VVFS2	engine40.listingsearch.nd.wemakeprice.org	257848
+67WVFS2	engine41.listingsearch.nd.wemakeprice.org	257848
+67YSFS2	engine42.listingsearch.nd.wemakeprice.org	257848
+67VNFS2	engine43.listingsearch.nd.wemakeprice.org	257848
+67TVFS2	job06.batch.nd.wemakeprice.org	257848
+67YNFS2	job07.batch.nd.wemakeprice.org	257848
+67KSFS2	job08.batch.nd.wemakeprice.org	257848
+67TQFS2	replace-sonarqube.sys.common.wemakeprice.org	257848
+67RSFS2	app17.elk.nd.wemakeprice.org	257848
+67TSFS2	engine04.dealsearch.nd.wemakeprice.org	257848
+67ZVFS2	engine05.dealsearch.nd.wemakeprice.org	257848
+67VWFS2	engine06.dealsearch.nd.wemakeprice.org	257848
+67KPFS2	engine44.listingsearch.nd.wemakeprice.org	257848
+67JRFS2	engine45.listingsearch.nd	257848
+67HQFS2	engine46.listingsearch.nd.wemakeprice.org	257848
+67GPFS2	master01.totalsearch.nd.wemakeprice.org	257847
+67YWFS2	master02.totalsearch.nd.wemakeprice.org	257847
+67JXFS2	master03.totalsearch.nd.wemakeprice.org	257847
+67VRFS2	engine11.totalsearch.nd.wemakeprice.org	257847
+67JTFS2	engine12.totalsearch.nd.wemakeprice.org	257847
+67RNFS2	engine13.totalsearch.nd.wemakeprice.org	257847
+67RRFS2	engine14.totalsearch.nd.wemakeprice.org	257847
+67JWFS2	engine15.totalsearch.nd.wemakeprice.org	257847
+67LXFS2	engine16.totalsearch.nd.wemakeprice.org	257847
+67HNFS2	engine17.totalsearch.nd.wemakeprice.org	257847
+67ZTFS2	engine18.totalsearch.nd.wemakeprice.org	257847
+681NFS2	engine19.totalsearch.nd.wemakeprice.org	257847
+67HRFS2	engine20.totalsearch.nd.wemakeprice.org	257847
+67KQFS2	engine21.totalsearch.nd.wemakeprice.org	257847
+67KWFS2	engine22.totalsearch.nd.wemakeprice.org	257847
+67LPFS2	engine01.totalsearch.nd.wemakeprice.org	257847
+67GVFS2	engine02.totalsearch.nd.wemakeprice.org	257847
+680WFS2	engine03.totalsearch.nd.wemakeprice.org	257847
+680RFS2	engine04.totalsearch.nd.wemakeprice.org	257847
+67XSFS2	engine05.totalsearch.nd.wemakeprice.org	257847
+67YRFS2	engine06.totalsearch.nd.wemakeprice.org	257847
+67ZPFS2	engine07.totalsearch.nd.wemakeprice.org	257847
+67GXFS2	engine08.totalsearch.nd.wemakeprice.org	257847
+67ZRFS2	engine09.totalsearch.nd.wemakeprice.org	225591
+67JQFS2	engine10.totalsearch.nd.wemakeprice.org	257847
+67MRFS2	index-engine01.totalsearch.nd.wemakeprice.org	257847
+67KTFS2	index-engine02.totalsearch.nd.wemakeprice.org	257847
+67PXFS2	index-engine03.totalsearch.nd.wemakeprice.org	257847
+67HXFS2	index01.totalsearch.nd.wemakeprice.org	515896
+67QSFS2	index02-test.totalsearch.nd.wemakeprice.org	64312
+681RFS2	app01.pcs.wmp.wemakeprice.org	128825
+67LSFS2	api01.pcs.wmp.wemakeprice.org	128825
+67KVFS2	admin01.pcs.wmp.wemakeprice.org	128825
+67RWFS2	sync01.pcs.wmp.wemakeprice.org	128825
+
+FLBVFS2	db-m01.svcsettle.wmp.wemakeprice.org	258218
+FLBRFS2	db-s01.svcsettle.wmp.wemakeprice.org	258218
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3W8J3T2	cephnode03.sys.common.wemakeprice.org	257859
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+J467CB2	db01.autopush.wmp.wemakeprice.org	258220
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7TGSCT2	engine23.totalsearch.nd.wemakeprice.org	257847
+7TPPCT2	index02.totalsearch.nd.wemakeprice.org	257847
+7THTCT2	index03.totalsearch.nd.wemakeprice.org	257847
+7TTTCT2	engine24.totalsearch.nd.wemakeprice.org	257847
+7TRYCT2	engine25.totalsearch.nd.wemakeprice.org	257847
+7TVWCT2	engine26.totalsearch.nd.wemakeprice.org	257847
+7THPCT2	engine27.totalsearch.nd.wemakeprice.org	257847
+7TRSCT2	engine28.totalsearch.nd.wemakeprice.org	257847
+7TSXCT2	engine29.totalsearch.nd.wemakeprice.org	257847
+7TVPCT2	engine30.totalsearch.nd.wemakeprice.org	257847
+7TSSCT2	app06.elk.nd.wemakeprice.org	257848
+7TSWCT2	app07.elk.nd.wemakeprice.org	257848
+7TSYCT2	batch01.svcsettle.wmp.wemakeprice.org	257848
+7TQYCT2	batch02.svcsettle.wmp.wemakeprice.org	257848
+
+
+
+
+
+
+41NFCV2	db-s04.benefit.nd.wemakeprice.org	258218
+41MJCV2	db-s05.benefit.nd.wemakeprice.org	258218
+41MDCV2	db-s06.benefit.nd.wemakeprice.org	258218
+41MFCV2	db-s07.benefit.nd.wemakeprice.org	258218
+41LCCV2	db-s08.benefit.nd.wemakeprice.org	258218
+41LJCV2	db-s09.benefit.nd.wemakeprice.org	258218
+41MKCV2	db-s10.benefit.nd.wemakeprice.org	258218
+41LKCV2	db-s01.benefit.nd.wemakeprice.org	258218
+41KKCV2	db-m01.subscribe.wmp.wemakeprice.org	258218
+41LDCV2	db-s01.subscribe.wmp.wemakeprice.org	258218
+
+
+H9LCCV2	m03.asch.wmp.wemakeprice.org	257848
+
+
+H9HJCV2	db-m01.pcs.wmp.wemakeprice.org	258218
+
+
+H9N9CV2	idx01.asch.wmp.wemakeprice.org	257848
+GH3B9X2	kibana01.testsearch.nd.wemakeprice.org	257392
+GH499X2	batch01.testsearch.nd.wemakeprice.org	257392
+GH539X2	batch02.testsearch.nd.wemakeprice.org	257392
+
+FFX49X2	storage01.testsearch.nd.wemakeprice.org	257392
+FJ679X2	storage02.testsearch.nd.wemakeprice.org	257392
+FH099X2	storage03.testsearch.nd.wemakeprice.org	257392
+FFX79X2	engine01.testsearch.nd.wemakeprice.org	257392
+FJ659X2	engine02.testsearch.nd.wemakeprice.org	257392
+FJ689X2	engine03.testsearch.nd.wemakeprice.org	257392
+FH149X2	engine04.testsearch.nd.wemakeprice.org	257392
+FGS49X2	engine05.testsearch.nd.wemakeprice.org	257392
+FFD49X2	engine06.testsearch.nd.wemakeprice.org	257392
+FBN29X2	engine07.testsearch.nd.wemakeprice.org	257392
+FBN79X2	engine08.testsearch.nd.wemakeprice.org	257392
+FGT79X2	engine09.testsearch.nd.wemakeprice.org	257392
+FGT59X2	engine10.testsearch.nd.wemakeprice.org	257392
+FGS89X2	engine11.testsearch.nd.wemakeprice.org	257392
+FBH79X2	cache23.front.nd.wemakeprice.org	644212
+FBH59X2	cache24.front.nd.wemakeprice.org	644212
+FBH29X2	cache25.front.nd.wemakeprice.org	644212
+FBF29X2	cache26.front.nd.wemakeprice.org	644212
+FBH99X2	cache27.front.nd.wemakeprice.org	644212
+GH569X2	cache28.front.nd.wemakeprice.org	644212
+FH039X2	cache29.front.nd.wemakeprice.org	257392
+FJ699X2	cache30.front.nd.wemakeprice.org	257392
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FFD39X2	cai01.wmind.wmp.wemakeprice.org	257392
+FH0B9X2	cai02.wmind.wmp.wemakeprice.org	257392
+FFD29X2	cai03.wmind.wmp.wemakeprice.org	257392
+FBM49X2	cai04.wmind.wmp.wemakeprice.org	257392
+FH139X2	batch01.wmind.wmp.wemakeprice.org	257392
+C1C11Y2	db-m01.wticket.wmp.wemakeprice.org	257734
+C1GY0Y2	db-m01.taccount.wmp.wemakeprice.org	257734
+C18Z0Y2	db-m01.greendeploy.nd.wemakeprice.org	257734
+C1H11Y2	old-db01.ods.nd.wemakeprice.org	257734
+C1FV0Y2	db-m01.ocr.nd.wemakeprice.org	257734
+C1BW0Y2	db-s09.perf.benefit.nd.wemakeprice.org	257734
+C1DZ0Y2	db-s10.perf.benefit.nd.wemakeprice.org	257734
+C19Z0Y2	db-s11.perf.benefit.nd.wemakeprice.org	257734
+C1HW0Y2	db-s12.perf.benefit.nd.wemakeprice.org	257734
+C1D01Y2	db-m01.perf.deal.nd.wemakeprice.org	257734
+C1H01Y2	db-s01.wticket.wmp.wemakeprice.org	257734
+C19X0Y2	db-s02.wticket.wmp.wemakeprice.org	257734
+C1D11Y2	db-s03.wticket.wmp.wemakeprice.org	257734
+C1B01Y2	db-s04.wticket.wmp.wemakeprice.org	257734
+C1GW0Y2	db-s05.wticket.wmp.wemakeprice.org	257734
+C1HV0Y2	db-s06.wticket.wmp.wemakeprice.org	257734
+C1HX0Y2	db-s07.wticket.wmp.wemakeprice.org	257734
+C1G11Y2	db-s06.deal.nd.wemakeprice.org	257734
+C1F01Y2	db75.wmp.wemakeprice.org	257734
+C1J11Y2	db-s04.escrow.nd.wemakeprice.org	257734
+C1FY0Y2	db-s05.escrow.nd.wemakeprice.org	257734
+C1C21Y2	db-s06.escrow.nd.wemakeprice.org	257734
+C1F11Y2	db-s07.escrow.nd.wemakeprice.org	257734
+C1CV0Y2	db01.stg.search.nd.wemakeprice.org	257734
+C1FX0Y2	db-m01.escrowview.nd.wemakeprice.org	257734
+C1B11Y2	db-m01.wems.common.wemakeprice.org	257734
+C1GZ0Y2	db-s12.benefit.nd.wemakeprice.org	257734
+C1D21Y2	db-s06.ad.wmp.wemakeprice.org	257734
+C1C31Y2	db-s01.greendeploy.nd.wemakeprice.org	257734
+C1DX0Y2	db-bk01.greendeploy.nd.wemakeprice.org	257734
+C1G01Y2	db-s01.ocr.nd.wemakeprice.org	257734
+C1HZ0Y2	db-bk01.ocr.nd.wemakeprice.org	257734
+C1CX0Y2	db01.dealescrow.nd.wemakeprice.org	257734
+C1BV0Y2	db02.dealescrow.nd.wemakeprice.org	257734
+C1BZ0Y2	db-s01.tdb.wmp.wemakeprice.org	257734
+C1BX0Y2	db-bk01.tdb.wmp.wemakeprice.org	257734
+C1CZ0Y2	db-bk01.msr.nd.wemakeprice.org	257734
+C1J01Y2	slave01.log.nd.wemakeprice.org	257734
+C1911Y2	backup01.log.nd.wemakeprice.org	257734
+C1HY0Y2	db-bk01.deal.nd.wemakeprice.org	257734
+C1CW0Y2	db01.datacenterdata.nd.wemakeprice.org	257734
+C1DV0Y2	db-s04.ad.wmp.wemakeprice.org	257734
+
+C1GX0Y2	db01.ods.nd.wemakeprice.org	257734
+C1DW0Y2	db-s01.searchmsr.nd.wemakeprice.org	257734
+C1H21Y2	db-s02.searchmsr.nd.wemakeprice.org	257734
+C1FZ0Y2	db-m01.searchmsr.nd.wemakeprice.org	257734
+C1921Y2	S1620	257734
+C1DY0Y2	db-s03.searchmsr.nd.wemakeprice.org	257734
+C1GV0Y2	db-s04.searchmsr.nd.wemakeprice.org	257734
+C1FW0Y2	db-s07.deal.nd.wemakeprice.org	257734
+
+
+CQWY8Z2	db-m01.tdb.wmp.wemakeprice.org	257734
+CQXR8Z2	master01.log.nd.wemakeprice.org	257734
+CQYV8Z2	db-s04.deal.nd.wemakeprice.org	257734
+CQYT8Z2	db-s05.deal.nd.wemakeprice.org	257734
+CQXV8Z2	k8s-master-001.wemakeprice.com	257370
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CQVY8Z2	data01.es.log.wemakeprice.org	257581
+CQWS8Z2	data02.es.log.wemakeprice.org	257581
+CQXS8Z2	data03.es.log.wemakeprice.org	257581
+CQZV8Z2	data04.es.log.wemakeprice.org	257581
+5GBV8Z2	data05.es.log.wemakeprice.org	257581
+CQWT8Z2	db-s05.ad.wmp.wemakeprice.org	257734
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CQVW8Z2	db-s08.perf.benefit.nd.wemakeprice.org	257734
+H9G5HZ2	db-bk01.sys.wmp.wemakeprice.org	128346
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GNCF033	data01.hadoop.apm.wemakeprice.org	128554
+GND6033	data02.hadoop.apm.wemakeprice.org	128554
+GND7033	data03.hadoop.apm.wemakeprice.org	128554

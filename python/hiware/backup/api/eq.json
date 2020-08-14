@@ -1,0 +1,29 @@
+{
+    "eqmtPtnCode": "01",
+    "osVerCode": "000021",
+    "eqmtClassCode": "01",
+    "eqmtGrpNo": "12",
+    "eqmtSecurFuncCdArray": [
+        "1",
+        "2"
+    ],
+    "eqmtNm": "넷앤드 장비",
+    "eqmtIpList": [
+        {
+            "ipAddrLayerCode": "01",
+            "eqmtIp": "192.168.1.113",
+            "dlgEqmtIpYn": "Y"
+        }
+    ],
+    "sysSvrNo": "1",
+    "assetMgmtUserNo": "1",
+    "eqmtConnPtnCode": "1",
+    "samAcctInfoYn": "Y",
+    "samAcctInfo": {
+        "basicEqmtSvcNo": "1",
+        "eqmtSvcNoList": [
+            "1",
+            "3"
+        ]
+    }
+}
