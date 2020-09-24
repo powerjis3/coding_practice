@@ -77,7 +77,11 @@ def eq_check(hostname):
 
     logout(authKey)
 
-    return 'hostname : ' + eq_hostname + '\nip : ' + eq_ip + '\neq number : ' + eq_number + "\n"
+    hostname_ljust = 'hostname'.ljust(10)
+    ip_ljust = 'ip'.ljust(10)
+    eq_number_ljust = 'eq number'.ljust(10)
+
+    return hostname_ljust + ' : ' + eq_hostname + "\n" + ip_ljust + ' : ' + eq_ip + '\n' + eq_number_ljust + ' : ' + eq_number + "\n"
 
 @app.route('/eq_add/<hostname>/<ipaddr>/<os>/<env>')
 def eq_add(hostname, ipaddr, os, env):
