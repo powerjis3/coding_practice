@@ -72,10 +72,12 @@ def eq_check(hostname):
     eq_number_search = requests.get('https://10.39.11.172:11200/hiware/v1/ext/eqmts?eqmtNm='+hostname, verify=False, headers={'API-Token': authKey})
     eq_number_search_json = eq_number_search.json()
     eq_number = eq_number_search_json['content'][0]['eqmtNo']
+    eq_ip = eq_number_search_json['content'][0]['eqmtIp']
+    eq_hostname = eq_number_search_json['content'][0]['eqmtNm']
 
     logout(authKey)
 
-    return 'eq number : ' + eq_number
+    return 'hostname : ' + eq_hostname + '\nip : ' + eq_ip + '\neq number : ' + eq_number + "\n"
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port='9090')
