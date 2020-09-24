@@ -79,6 +79,81 @@ def eq_check(hostname):
 
     return 'hostname : ' + eq_hostname + '\nip : ' + eq_ip + '\neq number : ' + eq_number + "\n"
 
+@app.route('/eq_add/<hostname>/<ipaddr>/<os>/<env>')
+def eq_add(hostname, ipaddr, os, env):
+
+    authKey = login()
+
+    eq_add_result_file = open('result.txt', 'w')
+
+    if os == 'UBUNTU':
+        os = '000103'
+    elif os == 'CENTOS':
+        os = '000010'
+    else:
+        print('OS를 확인부탁드립니다.')
+
+    if env == 'DEV':
+        env = '510'
+    elif env == 'QA':
+        env = '512'
+    elif env == 'STG/PERF':
+        env = '513'
+    elif env == 'PROD':
+        env = '514'
+    elif env == 'V-DEV':
+        env = '499'
+    elif env == 'V-QA':
+        env = '501'
+    elif env == 'V-STG-A':
+        env = '504'
+    elif env == 'V-STG-B/PERF':
+        env = '506'
+    elif env == 'V-PROD-A':
+        env = '507'
+    elif env == 'V-PROD-B':
+        env = '508'
+    elif env == 'V-PROD-C':
+        env = '509'
+    elif env == 'Server':
+        env = '496'
+    else:
+        print('env를 확인부탁드립니다.')
+
+    eq_add_json = OrderedDict()
+    eq_add_json = {
+        "eqmtNm" : hostname,
+        "eqmtGrpNo" : env,
+        "eqmtClassCode" : "01",
+        "eqmtPtnCode" : "02",
+        "osVerCode" : os,
+        "eqmtSecurFuncCdArray" : [
+            "1"
+        ],
+        "sysSvrNo" : "2",
+        "eqmtIpList" : [
+            {
+                "ipAddrLayerCode" : "01",
+                "eqmtIp" : ipaddr,
+                "dlgEqmtIpYn" : "Y"
+            }
+        ],
+        "eqmtConnPtnCode" : "1",
+        "samAcctInfoYn" : "Y",
+        "samAcctInfo" : {
+            "basicEqmtSvcNo" : "1",
+            "eqmtSvcNoList" :[
+                "1"
+            ]
+        }
+    }
+    eq_add_api = requests.post('https://10.39.11.172:11200/hiware/v1/ext/eqmts', verify=False, headers={'API-Token': authKey}, json=eq_add_json)
+    eq_add_api_str = str(eq_add_api)
+    result_file_source = hostname + ' / input reuslt : ' + eq_add_api_str + '\n'
+    eq_add_result_file.write(result_file_source)
+    eq_add_result_file.close()
+
+    return hostname + ' input result : ' + eq_add_api_str
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port='9090')
-
