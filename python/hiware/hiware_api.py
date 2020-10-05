@@ -7,6 +7,9 @@ from base64 import b64encode
 from Crypto.Cipher import AES
 from Crypto.Util.Padding import pad
 from flask import Flask
+import setproctitle
+
+setproctitle.setproctitle('hiware_api')
 
 app = Flask(__name__)
 
