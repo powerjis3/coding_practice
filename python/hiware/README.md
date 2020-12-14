@@ -3,7 +3,7 @@ hiware eq add
     OS - UBUNTU , CENTOS
     ENV - Server
 
-1. write list.txt (hostname IP  OS  ENV)
+1. write list.txt (hostname     IP      OS      ENV)
 
     ex) engine49.listingsearch.nd.wemakeprice.org       172.21.7.163    UBUNTU  PROD
 
@@ -32,3 +32,7 @@ hiware eq delete
 
 
 #########################################################
+
+hiware greuop check
+
+1. curl http://wcloud01.sys.common.wemakeprice.org:9090/gr_check/{GroupName}

@@ -162,5 +162,51 @@ def eq_add(hostname, ipaddr, os, env):
 
     return hostname + ' input result : ' + eq_add_api_str
 
+@app.route('/gr_check/<GroupName>')
+def gr_check(GroupName):
+
+    authKey = login()
+    gr_number_search = requests.get('https://10.39.11.172:11200/hiware/v1/ext/eqmts/groups?eqmtGrpNm='+GroupName, verify=False, headers={'API-Token': authKey})
+    gr_number_search_json = gr_number_search.json()
+    gr_number = gr_number_search_json['content'][0]['eqmtGrpNo']
+    hirnk_gr_number = gr_number_search_json['content'][0]['hirnkEqmtGrpNo']
+    gr_name = gr_number_search_json['content'][0]['eqmtGrpNm']
+    hirnk_gr_name = gr_number_search_json['content'][0]['hirnkEqmtGrpNm']
+
+    logout(authKey)
+
+    gr_name_ljust = 'Group_Name'.ljust(15)
+    gr_number_ljust = 'Group_Num'.ljust(15)
+    hirnk_gr_name_ljust = 'Hirnk_Group_Name'.ljust(20)
+    hirnk_gr_number_ljust = 'Hirnk_Group_Num'.ljust(20)
+
+    return gr_name_ljust + ' : ' + gr_name + "\n" + gr_number_ljust + ' : ' + gr_number + "\n" + hirnk_gr_name_ljust + ' : ' + hirnk_gr_name + "\n" + hirnk_gr_number_ljust + ' : ' + hirnk_gr_number + "\n"
+
+@app.route('/gr_add/<GroupName>')
+def gr_add(GroupName):
+
+    authKey = login()
+
+    gr_name_search = requests.get('https://10.39.11.172:11200/hiware/v1/ext/eqmts/groups?eqmtGrpNm='+GroupName, verify=False, headers={'API-Token': authKey})
+    gr_name_search_json = gr_name_search.json()
+    gr_name = gr_name_search_json['content'][0]['eqmtGrpNm']
+
+    if gr_name == GroupName :
+
+        print("The Group name already exists.")
+
+    else :
+        gr_add_json = OrderedDict()
+        gr_add_json = {
+        "eqmtGrpNm" : GroupName,
+        "hirnkEqmtGrpNo" : "496",
+        }
+
+        gr_add_api = requests.post('https://10.39.11.172:11200/hiware/v1/ext/eqmts/groups', verify=False, headers={'API-Token': authKey}, json=gr_add_json)
+        gr_add_api_str = str(gr_add_api)
+        result_file_source = GroupName + ' / input reuslt : ' + gr_add_api_str + '\n'
+        gr_add_result_file.write(result_file_source)
+        gr_add_result_file.close()
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port='9090')
