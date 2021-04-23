@@ -97,3 +97,7 @@ chown root:wheel /usr/bin/sudo
 chmod 4110 /usr/bin/sudo
 systemctl restart sssd.service
 systemctl restart sshd.service
+
+## commit & reboot
+sync
+reboot
