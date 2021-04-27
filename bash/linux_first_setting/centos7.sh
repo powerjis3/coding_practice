@@ -30,7 +30,7 @@ nameserver 110.45.202.242
 EOF
 
 ## package install & update
-yum install -y bind-utils chrony curl dmidecode gcc libgcc lsof man openssh-clients rsync sos strace sysstat unzip vim wget zip net-tools telnet bash-completion
+yum install -y bind-utils chrony curl dmidecode gcc libgcc lsof man openssh-clients rsync sos strace sysstat unzip vim wget zip net-tools telnet
 yum update -y
 
 ## historylog setting
