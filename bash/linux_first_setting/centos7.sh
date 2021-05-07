@@ -68,8 +68,8 @@ echo 'server ntp.qoo10.jp' >> /etc/chrony.conf
 systemctl restart chronyd.service
 
 ## zabbix agent install & setting
-wget https://repo.zabbix.com/zabbix/4.4/rhel/7/x86_64/zabbix-agent-4.4.10-1.el7.x86_64.rpm
-yum install -y ~/zabbix-agent-4.4.10-1.el7.x86_64.rpm
+wget http://jpsysgit.qoo10jp.net/jpsysadmin/public_share/raw/master/Zabbix_Agent_Linux/zabbix-agent-4.2.4-1.el7.x86_64.rpm
+yum install -y ~/zabbix-agent-4.2.4-1.el7.x86_64.rpm
 wget http://jpsysgit.qoo10jp.net/jpsysadmin/public_share/raw/master/Zabbix_Agent_Linux/ebay.conf -P /etc/zabbix/zabbix_agentd.d/
 sed -i "s/^Hostname.*/Hostname=$HOSTNAME/g" /etc/zabbix/zabbix_agentd.conf
 systemctl enable zabbix-agent.service
