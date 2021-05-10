@@ -77,9 +77,9 @@ echo -e '\n## chrony setting' >> install.log
 chronyc sources >> install.log
 
 ## zabbix agent install & setting
-wget http://jpsysgit.qoo10jp.net/jpsysadmin/public_share/raw/master/Zabbix_Agent_Linux/zabbix-agent-4.2.4-1.el7.x86_64.rpm
+wget --timeout=3 -t 1 http://jpsysgit.qoo10jp.net/jpsysadmin/public_share/raw/master/Zabbix_Agent_Linux/zabbix-agent-4.2.4-1.el7.x86_64.rpm
 yum install -y ~/zabbix-agent-4.2.4-1.el7.x86_64.rpm
-wget http://jpsysgit.qoo10jp.net/jpsysadmin/public_share/raw/master/Zabbix_Agent_Linux/ebay.conf -P /etc/zabbix/zabbix_agentd.d/
+wget --timeout=3 -t 1 http://jpsysgit.qoo10jp.net/jpsysadmin/public_share/raw/master/Zabbix_Agent_Linux/ebay.conf -P /etc/zabbix/zabbix_agentd.d/
 sed -i "s/^Hostname.*/Hostname=$HOSTNAME/g" /etc/zabbix/zabbix_agentd.conf
 systemctl enable zabbix-agent.service
 systemctl start zabbix-agent.service
@@ -87,9 +87,9 @@ echo -e '\n## zabbix agent install & setting' >> install.log
 systemctl status zabbix-agent.service | grep -i -E "active|loaded" >> install.log
 
 ## filebeat install & setting
-wget http://jpsysgit.qoo10jp.net/jpsysadmin/public_share/raw/master/filebeat/linux_filebeat/filebeat-7.6.1-x86_64.rpm
+wget --timeout=3 -t 1 http://jpsysgit.qoo10jp.net/jpsysadmin/public_share/raw/master/filebeat/linux_filebeat/filebeat-7.6.1-x86_64.rpm
 yum install -y ~/filebeat-7.6.1-x86_64.rpm
-wget http://jpsysgit.qoo10jp.net/jpsysadmin/public_share/raw/master/filebeat/linux_filebeat/filebeat.yml -O /etc/filebeat/filebeat.yml
+wget --timeout=3 -t 1 http://jpsysgit.qoo10jp.net/jpsysadmin/public_share/raw/master/filebeat/linux_filebeat/filebeat.yml -O /etc/filebeat/filebeat.yml
 sed -i 's/Environment="BEAT_LOG_OPTS=-e"/#Environment="BEAT_LOG_OPTS=-e"/g' /usr/lib/systemd/system/filebeat.service
 systemctl daemon-reload
 systemctl enable filebeat.service
