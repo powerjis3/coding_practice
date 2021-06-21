@@ -30,7 +30,10 @@ systemctl status firewalld NetworkManager postfix | grep -i loaded >> install.lo
 cat <<EOF > /etc/resolv.conf
 nameserver 110.45.202.241
 nameserver 110.45.202.242
+
+## if you want to change this file , enter the command 'chattr -i /etc/resolv.conf'
 EOF
+chattr +i /etc/resolv.conf
 echo -e '\n## nameserver setting' >> install.log
 cat /etc/resolv.conf >> install.log
 
