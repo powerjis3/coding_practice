@@ -121,8 +121,9 @@ cp -v $KSFILE $DST/isolinux/ks.cfg
 echo "Update repository index"
 (
     cd $DST/;
+    rm -rf repodata/*minimal-x86_64-comps.xml;
     chmod u+w repodata/*;
-    gunzip repodata/*minimal-x86_64-comps.xml.gz
+    gunzip repodata/*minimal-x86_64-comps.xml.gz;
     createrepo -g repodata/*minimal-x86_64-comps.xml . --update;
 )
 
