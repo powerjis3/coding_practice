@@ -1,5 +1,10 @@
 #!/bin/bash
+
+# necessary package install
+yum install syslinux genisoimage createrepo -y
+
 # create custom bootable iso for CentOS 7 with kickstart
+
 
 if [ $# -lt 2 ]
 then
