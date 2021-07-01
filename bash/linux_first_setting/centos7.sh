@@ -100,22 +100,42 @@ systemctl restart filebeat.service
 echo -e '\n## filebeat install & setting' >> install.log
 systemctl status filebeat.service | grep -i -E "active|loaded" >> install.log
 
-## ad setting
-yum install -y sssd realmd oddjob oddjob-mkhomedir samba-common-tools
-echo 'ad password input'
-realm join --user=administrator qoo10jp.inc 
-sed -i 's/use_fully_qualified_names = True/use_fully_qualified_names = False/g' /etc/sssd/sssd.conf
+## ssh setting
 sed -i 's/#auth\t\trequired\tpam_wheel/auth\t\trequired\tpam_wheel/g' /etc/pam.d/su
 sed -i 's/wheel:x:10:/wheel:x:10:daesukim,yoin,mcon,hyeonshin/g' /etc/group
 echo -e '\nAllowUsers daesukim@172.30.12.41 yoin@172.30.12.43 mcon@172.30.12.42 hyeonshin@172.30.12.40' >> /etc/ssh/sshd_config
 sed -i 's/.*PermitRootLogin yes/PermitRootLogin no/g' /etc/ssh/sshd_config
 chown root:wheel /usr/bin/sudo
 chmod 4110 /usr/bin/sudo
-systemctl restart sssd.service
 systemctl restart sshd.service
 echo -e '\n## ssh setting' >> install.log
 cat /etc/ssh/sshd_config | grep -E "^Port|^PermitRootLogin" >> install.log
 
-## commit & reboot
-sync
-reboot
+## ad setting & reboot
+yum install -y sssd realmd oddjob oddjob-mkhomedir samba-common-tools
+SSSD_FILE=`ls /etc/sssd/sssd.conf | wc -l`
+function sssd_setting() {
+    echo 'ad password input'
+    realm join --user=administrator qoo10jp.inc
+    sed -i 's/use_fully_qualified_names = True/use_fully_qualified_names = False/g' /etc/sssd/sssd.conf
+    systemctl restart sssd.service
+}
+sssd_setting
+if [ $SSSD_FILE -eq 1 ]; then
+    break;
+else
+    sssd_setting
+    if [ $SSSD_FILE -eq 1 ]; then
+        break;
+    else
+        sssd_setting
+    fi
+fi
+
+if [ $SSSD_FILE -eq 1 ]; then
+    sync
+    reboot
+else
+    echo 'ad setting failed - plese enter under command'
+    echo -e "realm join --user=administrator qoo10jp.inc \nsed -i 's/use_fully_qualified_names = True/use_fully_qualified_names = False/g' /etc/sssd/sssd.conf \nsystemctl restart sssd.service \nsync \nreboot"
+fi
