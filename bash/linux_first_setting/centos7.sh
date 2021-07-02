@@ -137,5 +137,6 @@ if [ $SSSD_FILE -eq 1 ]; then
     reboot
 else
     echo 'ad setting failed - plese enter under command'
+    echo '----------------------------------------------'
     echo -e "realm join --user=administrator qoo10jp.inc \nsed -i 's/use_fully_qualified_names = True/use_fully_qualified_names = False/g' /etc/sssd/sssd.conf \nsystemctl restart sssd.service \nsync \nreboot"
 fi
