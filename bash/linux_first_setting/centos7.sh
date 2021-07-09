@@ -122,12 +122,12 @@ function sssd_setting() {
 }
 sssd_setting
 sleep 3
-if [ $SSSD_FILE -eq 1 ]; then
+if [ $SSSD_FILE = 1 ]; then
     echo '### ad connect success ###'
 else
     sssd_setting
     sleep 3
-    if [ $SSSD_FILE -eq 1 ]; then
+    if [ $SSSD_FILE = 1 ]; then
         echo '### ad connect success ###'
     else
         sssd_setting
@@ -135,7 +135,7 @@ else
     fi
 fi
 
-if [ $SSSD_FILE -eq 1 ]; then
+if [ $SSSD_FILE = 1 ]; then
     sync
     reboot
 else
