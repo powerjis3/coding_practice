@@ -121,14 +121,17 @@ function sssd_setting() {
     systemctl restart sssd.service
 }
 sssd_setting
+sleep 3
 if [ $SSSD_FILE -eq 1 ]; then
     echo '### ad connect success ###'
 else
     sssd_setting
+    sleep 3
     if [ $SSSD_FILE -eq 1 ]; then
         echo '### ad connect success ###'
     else
         sssd_setting
+	sleep 3
     fi
 fi
 
