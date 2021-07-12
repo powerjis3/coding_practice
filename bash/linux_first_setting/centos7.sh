@@ -125,10 +125,12 @@ sssd_setting
 if [ -f $SSSD_FILE ]; then
     echo '### ad connect success ###'
 else
+    echo '### password failed. retry plz ###'
     sssd_setting
     if [ -f $SSSD_FILE ]; then
         echo '### ad connect success ###'
     else
+    echo '### password failed. retry plz ###'
         sssd_setting
     fi
 fi
