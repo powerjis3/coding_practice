@@ -84,6 +84,7 @@ wget --timeout=3 -t 1 http://jpsysgit.qoo10jp.net/jpsysadmin/public_share/raw/ma
 yum install -y ~/zabbix-agent-4.2.4-1.el7.x86_64.rpm
 wget --timeout=3 -t 1 http://jpsysgit.qoo10jp.net/jpsysadmin/public_share/raw/master/Zabbix_Agent_Linux/ebay.conf -P /etc/zabbix/zabbix_agentd.d/
 sed -i "s/^Hostname.*/Hostname=$HOSTNAME/g" /etc/zabbix/zabbix_agentd.conf
+sed -i 's/^Server/#Server/g' /etc/zabbix/zabbix_agentd.conf
 systemctl enable zabbix-agent.service
 systemctl start zabbix-agent.service
 echo -e '\n## zabbix agent install & setting' >> install.log
