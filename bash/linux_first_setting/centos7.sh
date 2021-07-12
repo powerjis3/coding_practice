@@ -136,6 +136,8 @@ else
 fi
 
 if [ -f $SSSD_FILE ]; then
+    echo '### reboot after 3 seconds ###'
+    sleep 3
     sync
     reboot
 else
