@@ -114,7 +114,7 @@ cat /etc/ssh/sshd_config | grep -E "^Port|^PermitRootLogin" >> install.log
 
 ## ad setting & reboot
 yum install -y sssd realmd oddjob oddjob-mkhomedir samba-common-tools
-SSSD_FILE=$(ls /etc/sssd/sssd.conf | wc -l)
+SSSD_FILE='/etc/sssd/sssd.conf'
 function sssd_setting() {
     echo 'ad password input'
     realm join --user=administrator qoo10jp.inc
@@ -122,21 +122,18 @@ function sssd_setting() {
     systemctl restart sssd.service
 }
 sssd_setting
-sleep 3
-if [ $SSSD_FILE = 1 ]; then
+if [ -f $SSSD_FILE ]; then
     echo '### ad connect success ###'
 else
     sssd_setting
-    sleep 3
-    if [ $SSSD_FILE = 1 ]; then
+    if [ -f $SSSD_FILE ]; then
         echo '### ad connect success ###'
     else
         sssd_setting
-	sleep 3
     fi
 fi
 
-if [ $SSSD_FILE = 1 ]; then
+if [ -f $SSSD_FILE ]; then
     sync
     reboot
 else
