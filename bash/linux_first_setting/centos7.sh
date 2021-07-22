@@ -86,7 +86,6 @@ wget --timeout=3 -t 1 http://jpsysgit.qoo10jp.net/jpsysadmin/public_share/raw/ma
 sed -i "s/^Hostname.*/Hostname=$HOSTNAME/g" /etc/zabbix/zabbix_agentd.conf
 sed -i 's/^Server/#Server/g' /etc/zabbix/zabbix_agentd.conf
 systemctl enable zabbix-agent.service
-systemctl start zabbix-agent.service
 echo -e '\n## zabbix agent install & setting' >> install.log
 systemctl status zabbix-agent.service | grep -i -E "active|loaded" >> install.log
 
