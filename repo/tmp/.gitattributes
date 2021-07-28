@@ -1,0 +1,1 @@
+zabbix-agent_4.2.4-1+bionic_amd64.deb filter=lfs diff=lfs merge=lfs -binary
