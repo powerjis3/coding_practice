@@ -21,8 +21,6 @@ net_info=192_168_56/24
 #vm_image=Ubuntu16-Template-v1.1
 #vm_image=Ubuntu16-Template-v1.2
 vm_image=Ubuntu16-Template-v1.3
-#vm_image=CentOS6-Template-v0.1
-#vm_image=CentOS7-Template-v0.2
 
 ## user data
 #user_data=~/user_data/ubuntu_user_data.sh
@@ -77,5 +75,5 @@ done < list.txt
 ## list.txt info
 # hostname  flavor  IP
 # ex)
-# hostname01c.example.nd    4vcpu_8mem_50G  172.26.8.11
+# hostname01c.example.nd    4vcpu_8mem_50G  192.168.56.11
 
