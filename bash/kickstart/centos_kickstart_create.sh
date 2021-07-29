@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# necessary package install
-yum install syslinux genisoimage createrepo -y
-
 # create custom bootable iso for CentOS 7 with kickstart
 
 
@@ -26,6 +23,9 @@ else
         echo "Kickstart file - $KSFILE"
     fi
 fi
+
+# necessary package install
+yum install syslinux genisoimage createrepo -y
 
 # original ISO file of CentOS 7
 ISO_ORIGINAL=$INNAME
