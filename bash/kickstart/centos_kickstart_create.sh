@@ -5,7 +5,7 @@
 
 if [ $# -lt 2 ]
 then
-    echo "Usage1: $0 path2iso path2kickstart"
+    echo "Usage1: $0 path-iso path-kickstart"
     exit 1
 else
     if [ ! -f $1 ]
