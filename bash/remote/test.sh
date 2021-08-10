@@ -227,5 +227,6 @@ cat /dev/null > result.txt
 LOGIN
 ADD_PROCESS $1 $2 $3 $4 $5 
 
+### remove spaces ###
 cat result.txt | grep -v -E ^$ >> result.tmp
 mv result.tmp result.txt
