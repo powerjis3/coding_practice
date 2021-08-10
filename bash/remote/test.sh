@@ -108,8 +108,10 @@ SUDO_GROUP_ADD="echo $PASSWORD | sudo -S sed -ie '/^sudo:/ s/$/,$4/' /root/tmp/g
 UBUNTU_GROUP_ADD="sshpass -p $PASSWORD ssh $USER_ID@$IP -no StrictHostKeyChecking=no $SUDO_GROUP_ADD"
 WHEEL_GROUP_ADD="echo $PASSWORD | sudo -S sed -ie '/^wheel:/ s/$/,$4/' /root/tmp/group"
 CENTOS_GROUP_ADD="sshpass -p $PASSWORD ssh $USER_ID@$IP -no StrictHostKeyChecking=no $WHEEL_GROUP_ADD"
-SSH_RESTART_SYSTEMD=$(sshpass -p $PASSWORD ssh $USER_ID@$IP  -no StrictHostKeyChecking=no  "echo $PASSWORD | sudo -S systemctl restart sshd" 2>/dev/null)
-SSH_RESTART_INITD=$(sshpass -p $PASSWORD ssh $USER_ID@$IP  -no StrictHostKeyChecking=no  "echo $PASSWORD | sudo -S /etc/init.d/sshd restart" 2>/dev/null)
+SYSTEMD_COMMEND="echo $PASSWORD | sudo -S systemctl restart sshd"
+SSH_RESTART_SYSTEMD="sshpass -p $PASSWORD ssh $USER_ID@$IP  -no StrictHostKeyChecking=no  $SYSTEMD_COMMEND"
+INITD_COMMEND="echo $PASSWORD | sudo -S /etc/init.d/sshd restart"
+SSH_RESTART_INITD="sshpass -p $PASSWORD ssh $USER_ID@$IP  -no StrictHostKeyChecking=no  $INITD_COMMEND"
 
 
 echo -n "$IP" | tee -a result.txt
@@ -135,7 +137,7 @@ elif [ $OS_ISSUE = ubuntu ];then
             echo -n " - add ssh_user" | tee -a result.txt
             $SSH_ALLOW_ADD 2>/dev/null
             echo " - restart sshd(systemd)" | tee -a result.txt
-            $SSH_RESTART_SYSTEMD
+            $SSH_RESTART_SYSTEMD 2>/dev/null
         fi
     else
         if [ $SSH_ALLOW_CHECK != 0 ]||[ $UBUNTU_GROUP_CHECK != 0 ];then
@@ -154,7 +156,7 @@ elif [ $OS_ISSUE = ubuntu ];then
         $SSH_ALLOW_ADD 2>/dev/null
         $UBUNTU_GROUP_ADD 2>/dev/null
         echo " - restart sshd(systemd)" | tee -a result.txt
-        $SSH_RESTART_SYSTEMD
+        $SSH_RESTART_SYSTEMD 2>/dev/null
         fi
     fi
 else
@@ -176,10 +178,10 @@ else
             $SSH_ALLOW_ADD 2>/dev/null
             if [ ${OS_VERSION:0:1} -eq 6 ];then
                 echo " - restart sshd(initd)" | tee -a result.txt
-                $SSH_RESTART_INITD
+                $SSH_RESTART_INITD 2>/dev/null
             else
                 echo " - restart sshd(systemd)" | tee -a result.txt
-                $SSH_RESTART_SYSTEMD
+                $SSH_RESTART_SYSTEMD 2>/dev/null
             fi
         fi
     else
@@ -200,10 +202,10 @@ else
             $CENTOS_GROUP_ADD 2>/dev/null
             if [ ${OS_VERSION:0:1} -eq 6 ];then
                 echo " - restart sshd(initd)" | tee -a result.txt
-                $SSH_RESTART_INITD
+                $SSH_RESTART_INITD 2>/dev/null
             else
                 echo " - restart sshd(systemd)" | tee -a result.txt
-                $SSH_RESTART_SYSTEMD
+                $SSH_RESTART_SYSTEMD 2>/dev/null
             fi
         fi
     fi
