@@ -21,8 +21,12 @@ FORMAT_CHECK() {
 if [ $# -lt 4 ];then
     GUIDE
 else
+    ## add/del chech ##
+    if [ $1 != add ]&&[ $1 != del ];then
+        echo " ## In the first field, input one of the two \"add/del\" ##"
+        exit 0
     ## iplist file check ##
-    if [ ! -f $2 ];then
+    elif [ ! -f $2 ];then
         echo "## File $2 does not exist! ##"
         exit 0
     ## target check ##
@@ -103,8 +107,8 @@ UBUNTU_GROUP_CHECK="sshpass -p $PASSWORD ssh $USER_ID@$IP  -no StrictHostKeyChec
 
 ## user add ##
 SSH_ALLOW_ADD="sshpass -p $PASSWORD ssh $USER_ID@$IP  -no StrictHostKeyChecking=no echo $PASSWORD | sudo -S sed -ie '/^AllowUsers/ s/$/ $4@$5/' /root/tmp/sshd_config"
-UBUNTU_GROUP_ADD="sshpass -p $PASSWORD ssh $USER_ID@$IP -no StrictHostKeyChecking=no echo $PASSWORD | sudo -S sed -ie '/^sudo:/ s/$/,$4/' /root/tmp/group"
-CENTOS_GROUP_ADD="sshpass -p $PASSWORD ssh $USER_ID@$IP -no StrictHostKeyChecking=no echo $PASSWORD | sudo -S sed -ie '/^wheel:/ s/$/,$4/' /root/tmp/group"
+UBUNTU_GROUP_ADD="sshpass -p $PASSWORD ssh $USER_ID@$IP -no StrictHostKeyChecking=no echo $PASSWORD | sudo -S sed -ie '/^sudo:/ s/$/,$4/' /root/tmp/group && echo $PASSWORD | sudo -S sed -ie '/^sudo:/ s/:,/:/' /root/tmp/group"
+CENTOS_GROUP_ADD="sshpass -p $PASSWORD ssh $USER_ID@$IP -no StrictHostKeyChecking=no echo $PASSWORD | sudo -S sed -ie '/^wheel:/ s/$/,$4/' /root/tmp/group && echo $PASSWORD | sudo -S sed -ie '/^wheel:/ s/:,/:/' /root/tmp/group"
 SSH_RESTART_SYSTEMD="sshpass -p $PASSWORD ssh $USER_ID@$IP  -no StrictHostKeyChecking=no echo $PASSWORD | sudo -S systemctl restart sshd"
 SSH_RESTART_INITD="sshpass -p $PASSWORD ssh $USER_ID@$IP  -no StrictHostKeyChecking=no echo $PASSWORD | sudo -S /etc/init.d/sshd restart"
 
@@ -209,6 +213,76 @@ fi
 done < $2
 }
 
+DELETE_PROCESS() {
+while read IP
+do
+
+## OS check ##
+OS_ISSUE=$(sshpass -p $PASSWORD ssh -o ConnectTimeout=2 $USER_ID@$IP  -no StrictHostKeyChecking=no "cat /etc/issue | awk '{print \$1}' | sed -n 1p | tr '[A-Z]' '[a-z]'" 2>/dev/null)
+OS_VERSION=$(sshpass -p $PASSWORD ssh -o ConnectTimeout=2 $USER_ID@$IP  -no StrictHostKeyChecking=no "cat /etc/redhat-release | sed 's/[a-z,A-Z]//g' | awk '{print \$1}'" 2>/dev/null)
+
+## delete value ##
+SSH_ALLOW_DEL="sshpass -p $PASSWORD ssh $USER_ID@$IP  -no StrictHostKeyChecking=no echo $PASSWORD | sudo -S sed -ie '/^AllowUsers/ s/ $4@$5//' /root/tmp/sshd_config"
+UBUNTU_GROUP_DEL="sshpass -p $PASSWORD ssh $USER_ID@$IP -no StrictHostKeyChecking=no echo $PASSWORD | sudo -S sed -ie '/^sudo:/ s/,$4,\|,$4$/,/' /root/tmp/group && echo $PASSWORD | sudo -S sed -ie '/^sudo:/ s/,$//' /root/tmp/group && echo $PASSWORD | sudo -S sed -ie '/^sudo:/ s/:,\|:$4,\|:$4$/:/' /root/tmp/group"
+CENTOS_GROUP_DEL="sshpass -p $PASSWORD ssh $USER_ID@$IP -no StrictHostKeyChecking=no echo $PASSWORD | sudo -S sed -ie '/^wheel:/ s/,$4,\|,$4$/,/' /root/tmp/group && echo $PASSWORD | sudo -S sed -ie '/^wheel:/ s/,$//' /root/tmp/group && echo $PASSWORD | sudo -S sed -ie '/^wheel:/ s/:,\|:$4,\|:$4$/:/' /root/tmp/group"
+SSH_RESTART_SYSTEMD="sshpass -p $PASSWORD ssh $USER_ID@$IP  -no StrictHostKeyChecking=no echo $PASSWORD | sudo -S systemctl restart sshd"
+SSH_RESTART_INITD="sshpass -p $PASSWORD ssh $USER_ID@$IP  -no StrictHostKeyChecking=no echo $PASSWORD | sudo -S /etc/init.d/sshd restart"
+
+
+echo -n "$IP" | tee -a result.txt
+
+if [[ -z $OS_ISSUE ]];then
+    echo ' - connect fail' | tee -a result.txt
+    continue
+elif [[ $OS_ISSUE = ubuntu ]];then
+    echo -n ' - connect ubuntu server' | tee -a result.txt
+    if [ $3 = group ];then
+        echo " - delete group_user" | tee -a result.txt
+        $UBUNTU_GROUP_DEL 2>/dev/null
+    elif [ $3 = ssh ];then
+        echo -n " - delete ssh_user" | tee -a result.txt
+        $SSH_ALLOW_DEL 2>/dev/null
+        echo " - restart sshd(systemd)" | tee -a result.txt
+        $SSH_RESTART_SYSTEMD 2>/dev/null
+    else
+        echo -n " - delete ssh/group_user" | tee -a result.txt
+        $UBUNTU_GROUP_DEL 2>/dev/null
+        $SSH_ALLOW_DEL 2>/dev/null
+        echo " - restart sshd(systemd)" | tee -a result.txt
+        $SSH_RESTART_SYSTEMD 2>/dev/null
+    fi
+else
+    echo -n ' - connect centos server' | tee -a result.txt
+    if [ $3 = group ];then
+        echo " - delete group_user" | tee -a result.txt
+        $CENTOS_GROUP_DEL 2>/dev/null
+    elif [ $3 = ssh ];then
+        echo -n " - delete ssh_user" | tee -a result.txt
+        $SSH_ALLOW_DEL 2>/dev/null
+        if [ ${OS_VERSION:0:1} -eq 6 ];then
+            echo " - restart sshd(initd)" | tee -a result.txt
+            $SSH_RESTART_INITD 2>/dev/null
+        else
+            echo " - restart sshd(systemd)" | tee -a result.txt
+            $SSH_RESTART_SYSTEMD 2>/dev/null
+        fi
+    else
+        echo -n " - delete ssh/group_user" | tee -a result.txt
+        $CENTOS_GROUP_DEL 2>/dev/null
+        $SSH_ALLOW_DEL 2>/dev/null
+        if [ ${OS_VERSION:0:1} -eq 6 ];then
+            echo " - restart sshd(initd)" | tee -a result.txt
+            $SSH_RESTART_INITD 2>/dev/null
+        else
+            echo " - restart sshd(systemd)" | tee -a result.txt
+            $SSH_RESTART_SYSTEMD 2>/dev/null
+        fi
+    fi
+fi
+
+done < $2
+}
+
 
 ############    main  ##################
 
@@ -218,9 +292,13 @@ FORMAT_CHECK $1 $2 $3 $4 $5
 ### initialize result file ###
 cat /dev/null > result.txt
 
-### add main ###
+### main ###
 LOGIN
-ADD_PROCESS $1 $2 $3 $4 $5 
+if [ $1 = add ];then
+    ADD_PROCESS $1 $2 $3 $4 $5 
+else
+    DELETE_PROCESS $1 $2 $3 $4 $5
+fi
 
 ### remove space ###
 cat result.txt | grep -v -E ^$ >> result.tmp
